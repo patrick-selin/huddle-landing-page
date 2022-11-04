@@ -138,7 +138,6 @@ ion-icon {
 }
 
 ion-icon:hover {
-    /* background-color: var(--white); */
     color: var(--accent-color);
     outline: 1px solid var(--accent-color);
 }
