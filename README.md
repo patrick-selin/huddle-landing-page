@@ -5,7 +5,7 @@
 ### Screenshot
 
 ![solution](https://github.com/patrick-selin/huddle-landing-page/blob/main/images/huddle-landing-page-solutiond.png)
-![solution](https://github.com/patrick-selin/05-stats-preview-card-component/blob/main/images/Stats%20preview%20card%20component%20solution.png)
+
 
 ### Links
 
