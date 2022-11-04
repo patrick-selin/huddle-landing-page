@@ -79,7 +79,7 @@ p {
     margin: 2rem 0rem;
 }
 
-button {
+.button {
     width: 12.5rem;
     background-color: #FFFFFF;
     border-radius: 2rem;
@@ -87,6 +87,15 @@ button {
     border: 0.05px solid black;
     font-style: 18px;
     color: var(--bg-color);
+    -webkit-box-shadow: 14px 6px 20px -1px rgba(0,0,0,0.72);
+    -moz-box-shadow: 14px 6px 20px -1px rgba(0,0,0,0.72);
+    box-shadow: 14px 6px 20px -1px rgba(0,0,0,0.72);
+}
+
+.button:hover {
+    color: var(--white);
+    background-color: var(--accent-color);
+    
 }
 
 .logo {
@@ -126,16 +135,104 @@ footer {
     padding-right: 7rem;
 }
 
-.social-media a {
-    
+.social-media a:not(:first-child) {
+    margin-left: 1rem;
 }
 
 ion-icon {
     color: var(--white);
     font-size: 1.5rem;
-    margin-left: 1rem;
+    
     outline:1px solid white;
     border-radius: 50%;
-    padding: 0.rem;
+    padding: 0.5rem;
     
   }
+
+
+  ion-icon:hover {
+    /* background-color: var(--white); */
+    color: var(--accent-color);
+    outline:1px solid var(--accent-color);
+  }
+
+
+
+  @media only screen and (max-width: 986px) {
+
+    body {
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        background-image: url("./images/bg-mobile.svg");
+        font-size: 1.0rem;
+    }
+
+    h1 {
+        padding: 0rem;
+        margin: 0rem;
+        /* font-size: 1.4rem; */
+        border: 1px solid green;
+
+    }
+
+    .main-center {
+        width: 97%;
+
+    }
+
+    .main-center > *{
+        
+        text-align: center;
+
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0rem;
+        
+    }
+    
+    .social-media {
+        padding-right: 0rem;
+        padding-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .first {
+        margin-left: 0rem;
+        /* padding-left: 0rem; */
+        
+    }
+          
+  }
+
+
+  @media only screen and (max-width: 500px) {
+
+    body {
+        background-image: url("./images/bg-mobile.svg");
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        padding: 2rem 1rem 2rem 1rem;
+        margin: 0rem;
+        font-size: 1.4rem;
+        border: 1px solid green;
+
+    }
+    .info-container {
+        padding: 0rem;
+    }
+        
+  }
+  
