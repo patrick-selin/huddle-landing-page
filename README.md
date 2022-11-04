@@ -4,7 +4,7 @@
 
 ### Screenshot
 
-![solution](https://)
+![solution][(https://](https://github.com/patrick-selin/huddle-landing-page/blob/main/images/huddle%20landing%20page%20solution.png))
 
 ### Links
 
