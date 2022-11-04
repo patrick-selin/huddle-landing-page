@@ -8,9 +8,9 @@
 
 ### Links
 
- Live Site: URL[CLICK](https://)
+ Live Site: [CLICK](https://patrick-selin.github.io/huddle-landing-page/)
 
- Code: [CLICK](https://).
+ Code: [CLICK](https://github.com/patrick-selin/huddle-landing-page)
 
 ### Built with
 

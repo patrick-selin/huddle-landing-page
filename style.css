@@ -1,11 +1,9 @@
-
-
 :root {
     /* primary colors */
     --bg-color: hsl(257, 40%, 49%);
     --accent-color: hsl(300, 69%, 71%);
     /* neutral colors */
-    --white: hsl(0, 0%, 100%) 
+    --white: hsl(0, 0%, 100%)
 }
 
 *,
@@ -16,13 +14,11 @@
     box-sizing: border-box;
 }
 
-
 html,
 body {
     height: 100vh;
     font-size: 1.07rem;
 }
-
 
 body {
     line-height: 1.6;
@@ -36,7 +32,6 @@ body {
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover-fit;
-    
 }
 
 img,
@@ -87,32 +82,28 @@ p {
     border: 0.05px solid black;
     font-style: 18px;
     color: var(--bg-color);
-    -webkit-box-shadow: 14px 6px 20px -1px rgba(0,0,0,0.72);
-    -moz-box-shadow: 14px 6px 20px -1px rgba(0,0,0,0.72);
-    box-shadow: 14px 6px 20px -1px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 14px 6px 20px -1px rgba(0, 0, 0, 0.72);
+    -moz-box-shadow: 14px 6px 20px -1px rgba(0, 0, 0, 0.72);
+    box-shadow: 14px 6px 20px -1px rgba(0, 0, 0, 0.72);
 }
 
 .button:hover {
     color: var(--white);
     background-color: var(--accent-color);
-    
 }
 
 .logo {
     max-width: 12rem;
 }
 
-
 .main-center {
     max-width: 1440px;
 }
 
-
 .card-container {
     display: flex;
     gap: 1rem;
-    max-width: 1400px;  
-    
+    max-width: 1400px;
 }
 
 .image-container {
@@ -126,7 +117,6 @@ p {
 
 footer {
     padding-top: 1rem;
-    
 }
 
 .social-media {
@@ -142,28 +132,20 @@ footer {
 ion-icon {
     color: var(--white);
     font-size: 1.5rem;
-    
-    outline:1px solid white;
+    outline: 1px solid white;
     border-radius: 50%;
     padding: 0.5rem;
-    
-  }
+}
 
-
-  ion-icon:hover {
+ion-icon:hover {
     /* background-color: var(--white); */
     color: var(--accent-color);
-    outline:1px solid var(--accent-color);
-  }
+    outline: 1px solid var(--accent-color);
+}
 
-
-
-  @media only screen and (max-width: 986px) {
+@media only screen and (max-width: 986px) {
 
     body {
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
         background-image: url("./images/bg-mobile.svg");
         font-size: 1.0rem;
     }
@@ -171,52 +153,42 @@ ion-icon {
     h1 {
         padding: 0rem;
         margin: 0rem;
-        /* font-size: 1.4rem; */
         border: 1px solid green;
-
     }
 
     .main-center {
         width: 97%;
-
     }
 
-    .main-center > *{
-        
+    .main-center> * {
         text-align: center;
-
     }
 
     .card-container {
         display: flex;
         flex-direction: column;
-        
-        
     }
+
     footer {
         display: flex;
         align-items: center;
         justify-content: center;
         padding-right: 0rem;
-        
+
     }
-    
+
     .social-media {
         padding-right: 0rem;
         padding-top: 2rem;
         margin-bottom: 1rem;
     }
-    
+
     .first {
         margin-left: 0rem;
-        /* padding-left: 0rem; */
-        
     }
-          
-  }
+}
 
-
-  @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
 
     body {
         background-image: url("./images/bg-mobile.svg");
@@ -228,11 +200,9 @@ ion-icon {
         margin: 0rem;
         font-size: 1.4rem;
         border: 1px solid green;
-
     }
+
     .info-container {
         padding: 0rem;
     }
-        
-  }
-  
+}
